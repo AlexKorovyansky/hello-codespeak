@@ -1,3 +1,4 @@
 # CodeSpeak
 .codespeak/ignored/
 .env.local
+db.sqlite3
