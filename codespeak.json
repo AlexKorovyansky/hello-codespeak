@@ -1,0 +1,29 @@
+{
+  "version": "0.1.0",
+  "profile_name": "mixed_mode",
+  "test_runner_configurations": {
+    "spec.cs.md": {
+      "run_all_tests_command": {
+        "command_line": "TODO: <command to run all tests> --junitxml={tests_report_file}"
+      },
+      "run_specified_tests_command": {
+        "command_line": "TODO: <command to run specified tests> {tests_list} --junitxml={tests_report_file}"
+      },
+      "run_all_tests_with_coverage_command": {
+        "command_line": "TODO: <command to run all tests with coverage> --junitxml={tests_report_file} --cov=<source_dir> --cov-branch --cov-report=lcov:{tests_coverage_report_file}"
+      },
+      "run_specified_tests_with_coverage_command": {
+        "command_line": "TODO: <command to run specified tests with coverage> {tests_list} --junitxml={tests_report_file} --cov=<source_dir> --cov-branch --cov-report=lcov:{tests_coverage_report_file}"
+      },
+      "non_test_source_regex_include": [
+        "TODO: <regex for source file extensions, e.g. \\.py$>"
+      ],
+      "non_test_source_regex_exclude": [
+        "TODO: <regex for test file patterns, e.g. (^|/)test_>"
+      ],
+      "source_glob_patterns": [
+        "TODO: <glob for source files, e.g. **/*.py>"
+      ]
+    }
+  }
+}

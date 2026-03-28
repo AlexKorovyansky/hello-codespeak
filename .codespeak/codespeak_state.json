@@ -1,0 +1,51 @@
+{
+    "meta": {
+        "schema": {
+            "implemented_change_requests": {
+                "type": "file",
+                "relative_path": "implemented_change_requests.json",
+                "format": "json",
+                "by_task": "FinalizeChangeRequest"
+            },
+            "external_apis": {
+                "type": "file",
+                "relative_path": "external_apis.json",
+                "format": "json",
+                "by_task": "AnalyzeExternalApis"
+            },
+            "console_app_dev_command": {
+                "type": "file",
+                "relative_path": "console_app_dev_command.txt",
+                "format": "text",
+                "by_task": "GenerateCliUsageExamples"
+            },
+            "console_app_usage_examples": {
+                "type": "file",
+                "relative_path": "console_app_usage_examples.json",
+                "format": "json",
+                "by_task": "GenerateCliUsageExamples"
+            },
+            "sha_to_checkpoint": {
+                "type": "file",
+                "relative_path": "sha_to_checkpoint.json",
+                "format": "json"
+            }
+        },
+        "version": "0.2.0"
+    },
+    "phases_state": {
+        "managed_files_write_violations": [],
+        "codespeak_internals_migrated": true,
+        "test_run_instructions": "Determine how to run tests for this project. Check for Python project management tools (uv, hatch, poetry, pip) by inspecting pyproject.toml and other config files. Use the appropriate command to run the test suite (e.g. `uv run pytest` for uv projects, `hatch run test` for hatch projects, `poetry run pytest` for poetry projects, `pytest` or `python -m pytest` otherwise).",
+        "managed_files": {
+            "spec.cs.md": [
+                "geese/urls.py",
+                "index.html",
+                "templates/geese/index.html"
+            ]
+        },
+        "change_request": "",
+        "commit_message": null,
+        "implemented_change_requests": ".codespeak/implemented_change_requests.json"
+    }
+}
